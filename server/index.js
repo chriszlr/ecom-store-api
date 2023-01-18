@@ -9,8 +9,8 @@ const app = express()
 app.use(express.json())
 
 
-app.use("/api/user", userRoutes)
 app.use("/api/auth/", authRoutes)
+app.use("/api/users", userRoutes)
 
 app.listen(process.env.PORT, () => console.log(`server listening on port ${process.env.PORT}`))
 mongoose.connect(process.env.MONGO_URI)
