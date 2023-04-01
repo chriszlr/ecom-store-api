@@ -23,3 +23,6 @@ you can either use [MongoDB Atlas](https://www.mongodb.com/de-de/atlas/database)
    ```
    npm run dev
    ```
+4. Send Requests to Server
+
+You can use something like [Postman](https://www.postman.com/) to send requests to the paths you can find in ./index.js and ./routes/ and communicate with the Server and Databse
