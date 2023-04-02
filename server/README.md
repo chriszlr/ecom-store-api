@@ -2,7 +2,7 @@
 
 1. First of all create a .env file in the root directory.
 
-Set the environment variables to something like this:
+Set the environment variables to something like this (MONGO_URI must be unique):
 
 ```
 MONGO_URI="mongodb://localhost:27017/ecom-store"
